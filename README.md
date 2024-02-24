@@ -35,3 +35,13 @@ If the content of a note is inside in the content of the nextone (or viceversa) 
 You could modify a file, for example delete a note or add a comment, and it will not be overwritten the next time you run the programm. This is very useful if you had to modify the structure. For example if you use this inside an app like Obsidian you'd like to append link in a file.
 
 To do this the progra use an hidden file with the date of the last note append. The file will be created in the destination directory if doesn't found and it's named `.support.txt`
+
+## Bugs
+- Books with parentesis in the title or in the author name can cause problems
+
+
+## Future improvment
+To improve in the future:
+- Resolve parentesis bug
+- make it more customble
+- make it more user friendly (GUI)
